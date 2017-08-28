@@ -27,6 +27,10 @@ h2 {
   font-size: 45px;
 }
 
+h3 {
+  font-family: 'Caveat', cursive;
+}
+
 /* Header Section Styling */
 /* ----------------------------------------- */
 .header {
@@ -61,4 +65,28 @@ img {
 /* ----------------------------------------- */
 .confirm-order {
   display: none;
+  background-color: #fff;
+  border: 3px solid #e1e1e1;
+  padding: 42px;
+  width: 400px;
+  text-align: center;
+  position: fixed;
+  top: 40%;
+  left: 40%;
+}
+
+input, textarea {
+  margin: .8em auto;
+  font-family: 'Lateef', cursive;
+  font-size: 25px;
+  display: block;
+  width: 280px;
+  padding: .4em;
+}
+
+#submitbtn {
+  background-image: url(../img/btnBG);
+  font-family: 'Lateef', cursive;
+  font-size: 25px;
+  padding: .4em;
 }

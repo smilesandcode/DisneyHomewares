@@ -1,8 +1,12 @@
+/* Styling Reset */
+/* ----------------------------------------- */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Body Styles + Headings */
+/* ----------------------------------------- */
 body {
   background-image: url(../img/bg.jpg);
   background-repeat: repeat;
@@ -17,16 +21,22 @@ h1 {
   text-shadow: 1px 1px #f9f27c, 2px 2px #f9f27c, 3px 3px #f9f27c, 4px 4px #f9f27c;
 }
 
+h2 {
+  padding-top: 30px;
+  font-family: 'Caveat', cursive;
+  font-size: 45px;
+}
 
+/* Header Section Styling */
+/* ----------------------------------------- */
 .header {
   padding: 350px;
   background-image: url(../img/kitchen.jpg);
   background-size: cover;
 }
 
+/* Blurb, Store Section & Footer Styles */
 /* ----------------------------------------- */
-
-
 .blurb, .footer {
     background-color: #e1e1e1;
     padding: 40px;
@@ -40,13 +50,15 @@ h1 {
   text-align: center;
 }
 
+/* Image Styling */
+/* ----------------------------------------- */
 img {
   margin: 20px;
   border: 1px solid #f9f27c;
 }
 
-h2 {
-  padding-top: 30px;
-  font-family: 'Caveat', cursive;
-  font-size: 45px;
+/* Order Submit Form Styling */
+/* ----------------------------------------- */
+.confirm-order {
+  display: none;
 }

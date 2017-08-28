@@ -11,34 +11,56 @@
   </head>
   <body>
 
+    <!-- Header Section of the Site -->
     <div class="header">
       <h1>Disney Homewares</h1>
     </div>
+    <!-- End of Header -->
 
+    <!-- Blurb with Disney Quote -->
     <div class="blurb">
       <p>
         We keep moving forward, opening new doors, and doing new things, <br>
         because we're curious and curiosity keeps leading us down new paths.
       </p>
     </div>
+    <!-- End of Blurb -->
 
+    <!-- Beginning of Container + Store Section -->
     <div class="container">
       <div class="store-section">
         <h2>Browse our Items</h2>
 
-        <img src="img/waffleMaker.jpg" alt="Mickey Mouse Waffle Maker">
-        <img src="img/ursulaMug.jpg" alt="Ursula Mug">
-        <img src="img/stitch.jpg" alt="Stitch Figurine">
-        <img src="img/slowCooker.jpg" alt="Disney Pixar Slow Cooker">
-        <img src="img/measuringSpoons.jpg" alt="Mickey Mouse Plastic Measuring Spoons">
-        <img src="img/hunny.jpg" alt="Winnie the Pooh Peek-a-boo Mug">
+        <img id="waffle" src="img/waffleMaker.jpg" alt="Mickey Mouse Waffle Maker">
+        <img id="ursula" src="img/ursulaMug.jpg" alt="Ursula Mug">
+        <img id="stitch" src="img/stitch.jpg" alt="Stitch Figurine">
+        <img id="pixar" src="img/slowCooker.jpg" alt="Disney Pixar Slow Cooker">
+        <img id="mickey" src="img/measuringSpoons.jpg" alt="Mickey Mouse Plastic Measuring Spoons">
+        <img id="poohBear" src="img/hunny.jpg" alt="Winnie the Pooh Peek-a-boo Mug">
       </div>
-    </div>
+      <!-- End of Store Section -->
 
+      <!-- Form Creation -->
+      <div class="confirm-order">
+        <h3>Confirm Your Order!</h3>
+        <small>This Item Was a Great Choice.</small>
+
+        <form action="#">
+          <input placeholder="Tinkerbell" type="text" required>
+          <input placeholder="minniemouse@gmail.com" type="email" required>
+          <button type="submit" id="submitbtn">Submit Order</button>
+        </form>
+      </div>
+      <!-- End of Form -->
+    </div>
+    <!-- End of Container -->
+
+    <!-- The Footer -->
     <div class="footer">
       <p>
         &copy; Disney. All Rights Reserved.
       </p>
     </div>
+    <!-- End of the Footer -->
   </body>
 </html>

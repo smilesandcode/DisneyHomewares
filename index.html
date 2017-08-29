@@ -10,60 +10,84 @@
     <title>Disney Homewares</title>
   </head>
   <body>
-
-    <!-- Header Section of the Site -->
-    <div class="header">
-      <h1>Disney Homewares</h1>
-    </div>
-    <!-- End of Header -->
-
-    <!-- Blurb with Disney Quote -->
-    <div class="blurb">
-      <p>
-        We keep moving forward, opening new doors, and doing new things, <br>
-        because we're curious and curiosity keeps leading us down new paths.
-      </p>
-    </div>
-    <!-- End of Blurb -->
-
-    <!-- Beginning of Container + Store Section -->
-    <div class="container">
-      <div class="store-section">
-        <h2>Browse our Items</h2>
-
-        <img id="waffle" src="img/waffleMaker.jpg" alt="Mickey Mouse Waffle Maker">
-        <img id="ursula" src="img/ursulaMug.jpg" alt="Ursula Mug">
-        <img id="stitch" src="img/stitch.jpg" alt="Stitch Figurine">
-        <img id="pixar" src="img/slowCooker.jpg" alt="Disney Pixar Slow Cooker">
-        <img id="mickey" src="img/measuringSpoons.jpg" alt="Mickey Mouse Plastic Measuring Spoons">
-        <img id="poohBear" src="img/hunny.jpg" alt="Winnie the Pooh Peek-a-boo Mug">
+    <div class="theSite">
+      <!-- Header Section of the Site -->
+      <div class="header">
+        <h1>Disney Homewares</h1>
       </div>
-      <!-- End of Store Section -->
+      <!-- End of Header -->
 
-      <!-- Form Creation -->
-      <div class="confirm-order">
-        <h3>Confirm Your Order!</h3>
-        <small>
-          If you happen to change your mind, simply click the item you previously
-        wanted to order.
-        </small>
-
-        <form action="confirmation.html">
-          <input placeholder="Tinkerbell" type="text" required>
-          <input placeholder="minniemouse@gmail.com" type="email" required>
-          <button type="submit" id="submitbtn">Submit Order</button>
-        </form>
+      <!-- Blurb with Disney Quote -->
+      <div class="blurb">
+        <p>
+          We keep moving forward, opening new doors, and doing new things, <br>
+          because we're curious and curiosity keeps leading us down new paths.
+        </p>
       </div>
-      <!-- End of Form -->
-    </div>
-    <!-- End of Container -->
+      <!-- End of Blurb -->
 
-    <!-- The Footer -->
-    <div class="footer">
-      <p>
-        &copy; Disney. All Rights Reserved.
-      </p>
+      <!-- Beginning of Container + Store Section -->
+      <div class="container">
+        <div class="store-section">
+          <h2>Browse our Items</h2>
+
+          <img id="waffle" src="img/waffleMaker.jpg" alt="Mickey Mouse Waffle Maker">
+          <img id="ursula" src="img/ursulaMug.jpg" alt="Ursula Mug">
+          <img id="stitch" src="img/stitch.jpg" alt="Stitch Figurine">
+          <img id="pixar" src="img/slowCooker.jpg" alt="Disney Pixar Slow Cooker">
+          <img id="mickey" src="img/measuringSpoons.jpg" alt="Mickey Mouse Plastic Measuring Spoons">
+          <img id="poohBear" src="img/hunny.jpg" alt="Winnie the Pooh Peek-a-boo Mug">
+        </div>
+        <!-- End of Store Section -->
+
+        <!-- Form Creation -->
+        <div class="confirm-order">
+          <h3>Confirm Your Order!</h3>
+          <small>
+            If you happen to change your mind, simply click the item you previously
+          wanted to order.
+          </small>
+
+            <div id="blanks">
+              <form>
+                <div class="form-group">
+                  <input id="inputName" class="form-control" placeholder="Tinkerbell" type="text" required>
+                </div>
+                <div class="form-group">
+                  <input id="inputAddress" class="form-control" placeholder="16 Wonderland Lane" type="text" required>
+                </div>
+                <button type="submit" id="submitbtn">Submit Order</button>
+              </form>
+          </div>
+        </div>
+        <!-- End of Form -->
+      </div>
+
+      <!-- The Footer -->
+      <div class="footer">
+        <p>
+          &copy; Disney. All Rights Reserved.
+        </p>
+      </div>
     </div>
-    <!-- End of the Footer -->
+      <!-- End of the Footer -->
+    </div>
+
+    <!-- Confirmation Page Code -->
+    <div class="container confirm-page">
+      <div class="confirmation">
+          <h1 class="confirm-heading">Thanks for the Order!</h1>
+          <p id="receipt">Here's Your Receipt</p>
+          <hr>
+          <p>
+            Dearest <span class="inputName"></span> <br>
+            Thank you for your order, you picked a great item! <br>
+            This will be sent to: <span class="inputAddress"></span> and you should expect to receive your item with 1-2 weeks. <br>
+            We look forward to you shopping here again! <br>
+            Best Regards, Disney Homewares
+          </p>
+      </div>
+    </div>
+    <!-- End of Confirmation Page -->
   </body>
 </html>

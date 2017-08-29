@@ -28,4 +28,22 @@ $(document).ready(function(){
   $("#poohBear").click(function(event){
     $(".confirm-order").fadeToggle();
   });
+
+  // Section that runs when form is submitted
+  $("#blanks form").submit(function(event){
+    // Information Variables
+    let nameInput = $("input#inputName").val();
+    let addressInput = $("input#inputAddress").val();
+
+    $(".inputName").text(nameInput);
+    $(".inputAddress").text(addressInput);
+
+    $(".theSite").hide();
+
+    $(".confirmation").fadeIn("slow").show();
+
+
+    event.preventDefault();
+  });
+
 });

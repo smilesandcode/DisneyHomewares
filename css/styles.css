@@ -71,11 +71,11 @@ img {
   width: 400px;
   text-align: center;
   position: fixed;
-  top: 40%;
+  top: 30%;
   left: 40%;
 }
 
-input, textarea {
+input, #inputName, #inputAddress {
   margin: .8em auto;
   font-family: 'Lateef', cursive;
   font-size: 25px;
@@ -89,4 +89,22 @@ input, textarea {
   font-family: 'Lateef', cursive;
   font-size: 25px;
   padding: .4em;
+}
+
+/* Confirmation Styling */
+/* ----------------------------------------- */
+.confirmation {
+  display: none;
+  text-align: center;
+}
+
+#receipt {
+  margin-top: 40px;
+  font-family: 'Lateef', cursive;
+  font-size: 40px;
+}
+
+.confirmation p {
+  font-family: 'Lateef', cursive;
+  font-size: 25px;
 }
